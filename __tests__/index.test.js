@@ -4911,5 +4911,4 @@ it('works', () => {
     }
   });
   expect(str).toMatchSnapshot();
-  require('fs').writeFileSync('/Users/pyramation/Desktop/yolo.json', str);
 });
