@@ -1,0 +1,1342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+"{
+  \\"_type\\": \\"File\\",
+  \\"attrs\\": [],
+  \\"items\\": [
+    {
+      \\"_type\\": \\"ItemEnum\\",
+      \\"attrs\\": [],
+      \\"vis\\": {
+        \\"_type\\": \\"VisPublic\\",
+        \\"pub_token\\": {
+          \\"_type\\": \\"Pub\\"
+        }
+      },
+      \\"enum_token\\": {
+        \\"_type\\": \\"Enum\\"
+      },
+      \\"ident\\": {
+        \\"_type\\": \\"Ident\\",
+        \\"to_string\\": \\"ExecuteMsg\\"
+      },
+      \\"generics\\": {
+        \\"_type\\": \\"Generics\\",
+        \\"lt_token\\": {
+          \\"_type\\": \\"Lt\\"
+        },
+        \\"params\\": {
+          \\"0\\": {
+            \\"_type\\": \\"TypeParam\\",
+            \\"attrs\\": [],
+            \\"ident\\": {
+              \\"_type\\": \\"Ident\\",
+              \\"to_string\\": \\"T\\"
+            },
+            \\"bounds\\": {
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 0
+            }
+          },
+          \\"_type\\": \\"Punctuated\\",
+          \\"length\\": 1
+        },
+        \\"gt_token\\": {
+          \\"_type\\": \\"Gt\\"
+        }
+      },
+      \\"variants\\": {
+        \\"0\\": {
+          \\"_type\\": \\"Variant\\",
+          \\"attrs\\": [
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" Transfer is a base message to move a token to another account without triggering actions\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            }
+          ],
+          \\"ident\\": {
+            \\"_type\\": \\"Ident\\",
+            \\"to_string\\": \\"TransferNft\\"
+          },
+          \\"fields\\": {
+            \\"_type\\": \\"FieldsNamed\\",
+            \\"named\\": {
+              \\"0\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"recipient\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"1\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"2\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"token_id\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 3
+            },
+            \\"brace_token\\": {
+              \\"_type\\": \\"Brace\\"
+            }
+          }
+        },
+        \\"1\\": {
+          \\"_type\\": \\"Comma\\"
+        },
+        \\"2\\": {
+          \\"_type\\": \\"Variant\\",
+          \\"attrs\\": [
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" Send is a base message to transfer a token to a contract and trigger an action\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            },
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" on the receiving contract.\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            }
+          ],
+          \\"ident\\": {
+            \\"_type\\": \\"Ident\\",
+            \\"to_string\\": \\"SendNft\\"
+          },
+          \\"fields\\": {
+            \\"_type\\": \\"FieldsNamed\\",
+            \\"named\\": {
+              \\"0\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"contract\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"1\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"2\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"token_id\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"3\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"4\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"msg\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"Binary\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"5\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 6
+            },
+            \\"brace_token\\": {
+              \\"_type\\": \\"Brace\\"
+            }
+          }
+        },
+        \\"3\\": {
+          \\"_type\\": \\"Comma\\"
+        },
+        \\"4\\": {
+          \\"_type\\": \\"Variant\\",
+          \\"attrs\\": [
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" Allows operator to transfer / send the token from the owner's account.\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            },
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" If expiration is set, then this allowance has a time/height limit\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            }
+          ],
+          \\"ident\\": {
+            \\"_type\\": \\"Ident\\",
+            \\"to_string\\": \\"Approve\\"
+          },
+          \\"fields\\": {
+            \\"_type\\": \\"FieldsNamed\\",
+            \\"named\\": {
+              \\"0\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"spender\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"1\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"2\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"token_id\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"3\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"4\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"expires\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"Option\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"AngleBracketedGenericArguments\\",
+                          \\"lt_token\\": {
+                            \\"_type\\": \\"Lt\\"
+                          },
+                          \\"args\\": {
+                            \\"0\\": {
+                              \\"_type\\": \\"TypePath\\",
+                              \\"path\\": {
+                                \\"_type\\": \\"Path\\",
+                                \\"segments\\": {
+                                  \\"0\\": {
+                                    \\"_type\\": \\"PathSegment\\",
+                                    \\"ident\\": {
+                                      \\"_type\\": \\"Ident\\",
+                                      \\"to_string\\": \\"Expiration\\"
+                                    },
+                                    \\"arguments\\": {
+                                      \\"_type\\": \\"PathArguments::None\\"
+                                    }
+                                  },
+                                  \\"_type\\": \\"Punctuated\\",
+                                  \\"length\\": 1
+                                }
+                              }
+                            },
+                            \\"_type\\": \\"Punctuated\\",
+                            \\"length\\": 1
+                          },
+                          \\"gt_token\\": {
+                            \\"_type\\": \\"Gt\\"
+                          }
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"5\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 6
+            },
+            \\"brace_token\\": {
+              \\"_type\\": \\"Brace\\"
+            }
+          }
+        },
+        \\"5\\": {
+          \\"_type\\": \\"Comma\\"
+        },
+        \\"6\\": {
+          \\"_type\\": \\"Variant\\",
+          \\"attrs\\": [
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" Remove previously granted Approval\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            }
+          ],
+          \\"ident\\": {
+            \\"_type\\": \\"Ident\\",
+            \\"to_string\\": \\"Revoke\\"
+          },
+          \\"fields\\": {
+            \\"_type\\": \\"FieldsNamed\\",
+            \\"named\\": {
+              \\"0\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"spender\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"1\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"2\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"token_id\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 3
+            },
+            \\"brace_token\\": {
+              \\"_type\\": \\"Brace\\"
+            }
+          }
+        },
+        \\"7\\": {
+          \\"_type\\": \\"Comma\\"
+        },
+        \\"8\\": {
+          \\"_type\\": \\"Variant\\",
+          \\"attrs\\": [
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" Allows operator to transfer / send any token from the owner's account.\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            },
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" If expiration is set, then this allowance has a time/height limit\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            }
+          ],
+          \\"ident\\": {
+            \\"_type\\": \\"Ident\\",
+            \\"to_string\\": \\"ApproveAll\\"
+          },
+          \\"fields\\": {
+            \\"_type\\": \\"FieldsNamed\\",
+            \\"named\\": {
+              \\"0\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"operator\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"1\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"2\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"expires\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"Option\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"AngleBracketedGenericArguments\\",
+                          \\"lt_token\\": {
+                            \\"_type\\": \\"Lt\\"
+                          },
+                          \\"args\\": {
+                            \\"0\\": {
+                              \\"_type\\": \\"TypePath\\",
+                              \\"path\\": {
+                                \\"_type\\": \\"Path\\",
+                                \\"segments\\": {
+                                  \\"0\\": {
+                                    \\"_type\\": \\"PathSegment\\",
+                                    \\"ident\\": {
+                                      \\"_type\\": \\"Ident\\",
+                                      \\"to_string\\": \\"Expiration\\"
+                                    },
+                                    \\"arguments\\": {
+                                      \\"_type\\": \\"PathArguments::None\\"
+                                    }
+                                  },
+                                  \\"_type\\": \\"Punctuated\\",
+                                  \\"length\\": 1
+                                }
+                              }
+                            },
+                            \\"_type\\": \\"Punctuated\\",
+                            \\"length\\": 1
+                          },
+                          \\"gt_token\\": {
+                            \\"_type\\": \\"Gt\\"
+                          }
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"3\\": {
+                \\"_type\\": \\"Comma\\"
+              },
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 4
+            },
+            \\"brace_token\\": {
+              \\"_type\\": \\"Brace\\"
+            }
+          }
+        },
+        \\"9\\": {
+          \\"_type\\": \\"Comma\\"
+        },
+        \\"10\\": {
+          \\"_type\\": \\"Variant\\",
+          \\"attrs\\": [
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" Remove previously granted ApproveAll permission\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            }
+          ],
+          \\"ident\\": {
+            \\"_type\\": \\"Ident\\",
+            \\"to_string\\": \\"RevokeAll\\"
+          },
+          \\"fields\\": {
+            \\"_type\\": \\"FieldsNamed\\",
+            \\"named\\": {
+              \\"0\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"operator\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 1
+            },
+            \\"brace_token\\": {
+              \\"_type\\": \\"Brace\\"
+            }
+          }
+        },
+        \\"11\\": {
+          \\"_type\\": \\"Comma\\"
+        },
+        \\"12\\": {
+          \\"_type\\": \\"Variant\\",
+          \\"attrs\\": [
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" Mint a new NFT, can only be called by the contract minter\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            }
+          ],
+          \\"ident\\": {
+            \\"_type\\": \\"Ident\\",
+            \\"to_string\\": \\"Mint\\"
+          },
+          \\"fields\\": {
+            \\"_type\\": \\"FieldsUnnamed\\",
+            \\"unnamed\\": {
+              \\"0\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"MintMsg\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"AngleBracketedGenericArguments\\",
+                          \\"lt_token\\": {
+                            \\"_type\\": \\"Lt\\"
+                          },
+                          \\"args\\": {
+                            \\"0\\": {
+                              \\"_type\\": \\"TypePath\\",
+                              \\"path\\": {
+                                \\"_type\\": \\"Path\\",
+                                \\"segments\\": {
+                                  \\"0\\": {
+                                    \\"_type\\": \\"PathSegment\\",
+                                    \\"ident\\": {
+                                      \\"_type\\": \\"Ident\\",
+                                      \\"to_string\\": \\"T\\"
+                                    },
+                                    \\"arguments\\": {
+                                      \\"_type\\": \\"PathArguments::None\\"
+                                    }
+                                  },
+                                  \\"_type\\": \\"Punctuated\\",
+                                  \\"length\\": 1
+                                }
+                              }
+                            },
+                            \\"_type\\": \\"Punctuated\\",
+                            \\"length\\": 1
+                          },
+                          \\"gt_token\\": {
+                            \\"_type\\": \\"Gt\\"
+                          }
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 1
+            },
+            \\"paren_token\\": {
+              \\"_type\\": \\"Paren\\"
+            }
+          }
+        },
+        \\"13\\": {
+          \\"_type\\": \\"Comma\\"
+        },
+        \\"14\\": {
+          \\"_type\\": \\"Variant\\",
+          \\"attrs\\": [
+            {
+              \\"_type\\": \\"Attribute\\",
+              \\"pound_token\\": {
+                \\"_type\\": \\"Pound\\"
+              },
+              \\"style\\": {
+                \\"_type\\": \\"AttrStyle::Outer\\"
+              },
+              \\"path\\": {
+                \\"_type\\": \\"Path\\",
+                \\"segments\\": {
+                  \\"0\\": {
+                    \\"_type\\": \\"PathSegment\\",
+                    \\"ident\\": {
+                      \\"_type\\": \\"Ident\\",
+                      \\"to_string\\": \\"doc\\"
+                    },
+                    \\"arguments\\": {
+                      \\"_type\\": \\"PathArguments::None\\"
+                    }
+                  },
+                  \\"_type\\": \\"Punctuated\\",
+                  \\"length\\": 1
+                }
+              },
+              \\"tokens\\": {
+                \\"0\\": {
+                  \\"_type\\": \\"Punct\\",
+                  \\"as_char\\": \\"=\\",
+                  \\"spacing\\": {
+                    \\"_type\\": \\"Spacing::Alone\\"
+                  }
+                },
+                \\"1\\": {
+                  \\"_type\\": \\"Literal\\",
+                  \\"to_string\\": \\"\\\\\\" Burn an NFT the sender has access to\\\\\\"\\"
+                },
+                \\"_type\\": \\"TokenStream\\",
+                \\"length\\": 2
+              },
+              \\"bracket_token\\": {
+                \\"_type\\": \\"Bracket\\"
+              }
+            }
+          ],
+          \\"ident\\": {
+            \\"_type\\": \\"Ident\\",
+            \\"to_string\\": \\"Burn\\"
+          },
+          \\"fields\\": {
+            \\"_type\\": \\"FieldsNamed\\",
+            \\"named\\": {
+              \\"0\\": {
+                \\"_type\\": \\"Field\\",
+                \\"attrs\\": [],
+                \\"vis\\": {
+                  \\"_type\\": \\"Visibility::Inherited\\"
+                },
+                \\"ident\\": {
+                  \\"_type\\": \\"Ident\\",
+                  \\"to_string\\": \\"token_id\\"
+                },
+                \\"colon_token\\": {
+                  \\"_type\\": \\"Colon\\"
+                },
+                \\"ty\\": {
+                  \\"_type\\": \\"TypePath\\",
+                  \\"path\\": {
+                    \\"_type\\": \\"Path\\",
+                    \\"segments\\": {
+                      \\"0\\": {
+                        \\"_type\\": \\"PathSegment\\",
+                        \\"ident\\": {
+                          \\"_type\\": \\"Ident\\",
+                          \\"to_string\\": \\"String\\"
+                        },
+                        \\"arguments\\": {
+                          \\"_type\\": \\"PathArguments::None\\"
+                        }
+                      },
+                      \\"_type\\": \\"Punctuated\\",
+                      \\"length\\": 1
+                    }
+                  }
+                }
+              },
+              \\"_type\\": \\"Punctuated\\",
+              \\"length\\": 1
+            },
+            \\"brace_token\\": {
+              \\"_type\\": \\"Brace\\"
+            }
+          }
+        },
+        \\"15\\": {
+          \\"_type\\": \\"Comma\\"
+        },
+        \\"_type\\": \\"Punctuated\\",
+        \\"length\\": 16
+      },
+      \\"brace_token\\": {
+        \\"_type\\": \\"Brace\\"
+      }
+    }
+  ]
+}"
+`;
